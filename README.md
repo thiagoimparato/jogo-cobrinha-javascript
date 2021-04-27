@@ -3,7 +3,7 @@
     <img src="img/capa.jpg" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">SNAGE GAME - (Jogo da Cobrinha)</h3>
+  <h3 align="center">SNAKE GAME - (Jogo da Cobrinha)</h3>
 
   <p align="center">
     Jogo da Cobrinha desenvolvido com JavaScript
