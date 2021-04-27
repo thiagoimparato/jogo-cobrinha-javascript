@@ -14,7 +14,7 @@ let food = {
 
 
 function criarBG(){
-    context.fillStyle = "lightgreen";
+    context.fillStyle = "lightblue";
     context.fillRect(0, 0, 16 * box, 16 * box);
 }
 
@@ -50,7 +50,8 @@ function iniciarJogo(){
     for(i = 1; i < snake.length; i++){
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
             clearInterval(jogo);
-            alert('Game Over :( !!!');
+            window.location.href = "gameover.html";
+            //alert('Game Over :( !!!');
         } 
     }
 

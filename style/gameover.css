@@ -1,0 +1,14 @@
+body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/gameover.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: center;
+    background-position-y: center;
+}
